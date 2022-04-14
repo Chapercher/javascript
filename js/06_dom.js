@@ -4,9 +4,9 @@ console.log('Chemin du fichier : ' + document.documentURI);
 //Sélectionner par son ID
 let title = document.getElementById('title');
 
-//Recupere uniquement le text
+//Récupère uniquement le text
 console.log(title.innerText);
-//Recupere uniquement le HTML
+//Récupère uniquement le HTML
 console.log(title.innerHTML);
 
 //Modifier le contenu Text
@@ -45,14 +45,14 @@ console.log(document.querySelector('p').classList);
 //Supprimer une class CSS à un élément HTML
 //document.querySelector('p').classList.remove('fondVert');
 
-//Sélectionner les élements paire
+//Sélectionner les éléments paire
 let tabLi = document.querySelectorAll('ul li:nth-child(even)');
 console.log(tabLi)
 for(let li of tabLi){
 	li.classList.add('fondVert');
 }
 
-//Tester la présence d'une class CSS sur un élement HTML
+//Tester la présence d'une class CSS sur un élément HTML
 if(document.querySelector('li:nth-child(2)').classList.contains('fondVert')){
 	console.log('la classe verte est affectée');
 }
