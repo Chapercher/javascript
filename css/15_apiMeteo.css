@@ -1,0 +1,65 @@
+body{
+	background-color : darkseagreen;
+	background-size : cover;
+	background-repeat : no-repeat;
+	min-height: 100vh;
+}
+.box-container{
+	width : 300px;
+	height : 300px;
+	display : flex;
+	flex-wrap: wrap;
+}
+.box{
+	width : 150px;
+	height : 150px;
+	display : flex;
+	flex-direction: column;
+	justify-content : center;
+	align-items : center;
+	font-size: 1.5rem;
+	color : #fff;
+}
+#city{
+	background-color : rgba(41, 128, 185, .75);
+}
+#temp{
+	background-color : rgba(43, 78, 101, .75);
+}
+#humidity{
+	background-color : rgba(52, 152, 219, .75);
+}
+#wind{
+	background-color : rgba(143, 146, 154, .75);
+}
+
+
+/*RESPONSIVE*/
+
+/*desktop*/
+@media (min-width : 1025px) {
+
+}
+
+/*pc portable*/
+@media (min-width : 1025px) and (max-width : 1700px) {
+
+}
+
+/*tablet*/
+@media (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+/*mobile and tablet*/
+@media (max-width : 1024px) {
+
+}
+
+
+/*hone*/
+@media (max-width : 767px) {
+
+}
+
+/*RESPONSIVE*/
